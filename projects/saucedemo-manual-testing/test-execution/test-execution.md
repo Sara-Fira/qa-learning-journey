@@ -1,7 +1,9 @@
 # Test Execution – SauceDemo
 
 **Project:** SauceDemo
+
 **Tester:** Sara Fira
+
 **Execution type:** Manual testing
 
 ## Execution Summary
