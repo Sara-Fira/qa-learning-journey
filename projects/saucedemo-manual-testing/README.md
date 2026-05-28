@@ -37,4 +37,4 @@ A Confluence version of this project documentation is also available.
 
 It contains the same QA documentation in a structured project space format, including Test Plan, Test Scenarios, Test Cases, Test Execution, Bug Reports, Screenshots, and Test Summary Report.
 
-[Open Confluence Documentation](https://sarafira.atlassian.net/wiki/x/qAAJ)
+[Open Confluence Documentation](https://sarafira.atlassian.net/wiki/external/YTk3ZmZjMzA3MTU0NDZmMTlhYWZjODQzMzkyNTMyOTU)
