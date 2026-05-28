@@ -11,7 +11,7 @@ The goal of testing is to verify the main user flows, including login, product b
 **Application:** SauceDemo  
 **URL:** https://www.saucedemo.com/  
 **Test type:** Manual functional testing  
-**Tester:** Marian Kot  
+**Tester:** Sara Fira  
 
 ## 3. Test Scope
 
