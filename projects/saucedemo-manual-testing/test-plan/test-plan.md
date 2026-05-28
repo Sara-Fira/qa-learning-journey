@@ -1,93 +1,84 @@
-# Sauce Demo – Test Plan
+# Test Plan – SauceDemo
 
-## 1. Test Objective
+## 1. Project Overview
 
-The objective of this test plan is to verify the core functionality of the Sauce Demo web application from an end-user perspective.
+This project contains manual testing documentation for the SauceDemo web application.
 
-The testing will focus on the main user flows, including login, product browsing, cart management and checkout process.
+The goal of testing is to verify the main user flows, including login, product browsing, cart management, checkout process, navigation, session behavior, and basic usability.
 
-## 2. Test Scope
+## 2. Application Under Test
 
-### In scope
+**Application:** SauceDemo  
+**URL:** https://www.saucedemo.com/  
+**Test type:** Manual functional testing  
+**Tester:** Marian Kot  
+
+## 3. Test Scope
+
+The following areas are included in testing:
 
 - Login functionality
-- Product listing page
-- Product sorting
-- Shopping cart functionality
+- Products page
+- Cart functionality
 - Checkout process
-- Basic UI and navigation checks
+- Navigation and session behavior
+- Basic usability checks
 
-### Out of scope
+## 4. Out of Scope
+
+The following areas are not included in this test cycle:
 
 - Performance testing
 - Security testing
-- API/backend testing
-- Database validation
-- Automated testing
+- API testing
+- Database testing
+- Cross-browser testing on multiple browsers
+- Mobile device testing
 
-## 3. Test Types
+## 5. Test Approach
 
-The following types of testing will be performed:
+Testing will be performed manually based on prepared test scenarios and test cases.
 
-- Functional testing
-- Negative testing
-- UI testing
-- Exploratory testing
+Each test case will include:
+- test case ID
+- module
+- priority
+- preconditions
+- test steps
+- expected result
+- execution status
+- notes
 
-## 4. Test Environment
+## 6. Test Environment
 
-| Area | Details |
-|---|---|
-| Application | Sauce Demo |
-| Browser | Google Chrome, latest version |
-| Device | Desktop |
-| Operating System | Windows |
-| Testing approach | Manual testing |
-
-## 5. Test Schedule
-
-| Date | Module / Activity |
-|---|---|
-| 26.05.2026 | Project setup and Login testing |
-| 27.05.2026 | Products page testing |
-| 28.05.2026 | Cart testing |
-| 29.05.2026 | Checkout testing |
-| 30.05.2026 | Exploratory and regression testing |
-| 31.05.2026 | Test summary and final documentation |
-
-## 6. Test Approach
-
-Testing will be performed manually based on prepared test scenarios.
-
-Test execution results will be documented in the Test Execution section. Any defects found during testing will be reported in Jira and referenced in the documentation.
+**Device:** Desktop  
+**Browser:** Chrome  
+**Operating system:** Windows  
+**Internet connection:** Stable home connection  
 
 ## 7. Entry Criteria
 
 Testing can start when:
 
-- The application is accessible
-- Test scenarios are prepared
+- The SauceDemo application is available
+- Test credentials are known
+- Test scenarios and test cases are prepared
 - Test environment is ready
-- Jira and Confluence project structure is prepared
 
 ## 8. Exit Criteria
 
 Testing can be completed when:
 
-- Planned test scenarios have been executed
-- Found defects have been reported in Jira
-- Test execution results have been documented
-- Test Summary Report has been prepared
+- All planned test cases are executed
+- Failed test cases are documented
+- Found defects are reported
+- Test summary report is prepared
 
-## 9. Risks and Assumptions
+## 9. Test Deliverables
 
-### Assumptions
-
-- Testing is performed from an end-user perspective
-- No access to backend logs or database is available
-- The application is used as a demo application for QA practice
-
-### Risks
-
-- Some issues may be intentionally implemented as part of the demo application
-- Limited access to backend details may restrict root cause analysis
+- Test Plan
+- Test Scenarios
+- Test Cases
+- Bug Reports
+- Test Execution Report
+- Test Summary Report
