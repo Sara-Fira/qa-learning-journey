@@ -2,15 +2,15 @@
 
 This folder contains selected screenshots captured during manual test execution.
 
-Screenshots are used as supporting evidence for key test areas, including login, cart, checkout, navigation, and validation behavior.
+The screenshots are used as test evidence for selected test cases only. They do not cover every test case from the full test execution scope.
 
-## Screenshot Structure
+The purpose of this folder is to provide visual confirmation of key tested flows and important application behavior, such as:
 
-| Folder | Description |
-|---|---|
-| `login/` | Screenshots related to login and login validation |
-| `products/` | Screenshots related to products page and product details |
-| `cart/` | Screenshots related to cart functionality |
-| `checkout/` | Screenshots related to checkout process |
-| `navigation-session/` | Screenshots related to navigation and session behavior |
-| `usability/` | Screenshots related to basic UI and usability checks |
+* successful login
+* validation errors
+* cart behavior
+* checkout process
+* order confirmation
+* navigation and session behavior
+
+Full test coverage is documented in the Test Execution report.
