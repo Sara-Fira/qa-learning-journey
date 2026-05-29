@@ -2,39 +2,41 @@
 
 This project contains manual QA documentation for the Sauce Demo web application.
 
-The goal of this project is to simulate a real QA workflow using Jira and Confluence, and document the final results in GitHub as part of my QA learning portfolio.
+The goal of this project is to simulate a real QA workflow by using Jira for defect tracking, Confluence for test documentation, and GitHub as a portfolio repository.
 
-## Tested application
+## Tested Application
 
-Sauce Demo
+**Sauce Demo**  
+A sample e-commerce web application used for QA practice.
 
-## Scope
+## Project Scope
+
+The following areas were covered during testing:
 
 - Login functionality
 - Products page
 - Shopping cart
 - Checkout process
+- Basic navigation and UI behavior
 
-## Tools used
+## Tools Used
 
-- Jira – defect tracking
-- Confluence – test documentation
-- GitHub – portfolio documentation
-- Chrome DevTools – basic investigation and UI checks
+- **Jira** – defect tracking and bug management
+- **Confluence** – structured QA documentation
+- **GitHub** – portfolio documentation
+- **Chrome DevTools** – basic investigation and UI checks
 
-## Project documentation
+## QA Documentation
 
-- Test Plan
-- Test Scenarios
-- Test Execution
-- Bug Reports
-- Test Summary Report
-- Screenshots / Evidence
+The full QA documentation is available in Confluence.
 
-## Confluence Documentation
+| Document | Description | Link |
+|---|---|---|
+| Test Plan | Testing scope, objectives, approach, and tools | [Open Test Plan](https://sarafira.atlassian.net/wiki/external/ZjFhNTBjMTJjMGNlNDkxYWI0N2Q4NGVjYjQ0ZTdmY2I) |
+| Test Scenarios | High-level testing scenarios grouped by application module | [Open Test Scenarios](https://sarafira.atlassian.net/wiki/external/N2NkNWM3NDc0ZDdmNGY1NGI4N2RiNzg0YzAxZDQ5Mzc) |
+| Test Execution | Test execution status and actual results | [Open Test Execution](https://sarafira.atlassian.net/wiki/external/NmI0ZTFjZjJhZjAzNGNjYmI1OGI3MTNhNjAzODUyZDU) |
+| Test Summary Report | Final testing summary, results, observations, and conclusions | [Open Test Summary Report](https://sarafira.atlassian.net/wiki/external/ZjkyYTFjYzI5NmY0NDI3N2JhYjI3NTMwNTlkZTNkNjQ) |
 
-A Confluence version of this project documentation is also available.
+## Project Status
 
-It contains the same QA documentation in a structured project space format, including Test Plan, Test Scenarios, Test Cases, Test Execution, Bug Reports, Screenshots, and Test Summary Report.
-
-[Open Confluence Documentation](https://sarafira.atlassian.net/wiki/external/YTk3ZmZjMzA3MTU0NDZmMTlhYWZjODQzMzkyNTMyOTU)
+Completed — manual testing documentation, test execution and final test summary have been prepared.
