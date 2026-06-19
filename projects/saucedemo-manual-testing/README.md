@@ -2,7 +2,7 @@
 
 This project contains manual QA documentation for the Sauce Demo web application.
 
-The goal of this project is to simulate a real QA workflow by using Jira for defect tracking, Confluence for test documentation, and GitHub as a portfolio repository.
+The goal of this project is to simulate a real QA workflow by using Confluence for test documentation and GitHub as a portfolio repository.
 
 ## Tested Application
 
@@ -21,10 +21,8 @@ The following areas were covered during testing:
 
 ## Tools Used
 
-- **Jira** – defect tracking and bug management
 - **Confluence** – structured QA documentation
 - **GitHub** – portfolio documentation
-- **Chrome DevTools** – basic investigation and UI checks
 
 ## QA Documentation
 
