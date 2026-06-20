@@ -4,10 +4,8 @@ This repository contains my manual QA learning projects, including test document
 
 ## Tools used
 
-- Jira
 - Confluence
 - GitHub
-- Chrome DevTools
 - Markdown
 
 ## Projects
@@ -24,3 +22,7 @@ Covered areas:
 
 Project folder:
 `projects/saucedemo-manual-testing/`
+
+### OrangeHRM Testing Project
+
+Coming soon.
