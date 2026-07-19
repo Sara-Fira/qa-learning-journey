@@ -33,7 +33,7 @@ The full QA documentation is available in Confluence.
 | Project overview | Project goals, scope, tools, and QA workflow overview. | [Open Test Plan](https://sarafira.atlassian.net/wiki/external/YTk3ZmZjMzA3MTU0NDZmMTlhYWZjODQzMzkyNTMyOTU)
 | Test Plan | Testing scope, objectives, approach, and tools | [Open Test Plan](https://sarafira.atlassian.net/wiki/external/ZjFhNTBjMTJjMGNlNDkxYWI0N2Q4NGVjYjQ0ZTdmY2I) |
 | Test Scenarios | High-level testing scenarios grouped by application module | [Open Test Scenarios](https://sarafira.atlassian.net/wiki/external/N2NkNWM3NDc0ZDdmNGY1NGI4N2RiNzg0YzAxZDQ5Mzc) |
-| Test Execution | Test execution status and actual results | [Open Test Execution](https://sarafira.atlassian.net/wiki/external/NmI0ZTFjZjJhZjAzNGNjYmI1OGI3MTNhNjAzODUyZDU) |
+| Test Cases and Execution | Test cases execution status and actual results | [Open Test Execution](https://sarafira.atlassian.net/wiki/external/NmI0ZTFjZjJhZjAzNGNjYmI1OGI3MTNhNjAzODUyZDU) |
 | Test Summary Report | Final testing summary, results, observations, and conclusions | [Open Test Summary Report](https://sarafira.atlassian.net/wiki/external/ZjkyYTFjYzI5NmY0NDI3N2JhYjI3NTMwNTlkZTNkNjQ) |
 
 ## Project Status
