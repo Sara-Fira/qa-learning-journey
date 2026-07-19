@@ -6,6 +6,8 @@ This project contains manual testing documentation for the SauceDemo web applica
 
 The goal of testing is to verify the main user flows, including login, product browsing, cart management, checkout process, navigation, session behavior, and basic usability.
 
+The Test Execution document contains 56 detailed test cases mapped to 30 high-level test scenarios, together with execution status and actual results.
+
 ## 2. Application Under Test
 
 **Application:** SauceDemo  
@@ -78,7 +80,6 @@ Testing can be completed when:
 
 - Test Plan
 - Test Scenarios
-- Test Cases
 - Bug Reports
-- Test Execution Report
+- Test Cases and Execution Report
 - Test Summary Report
