@@ -1,0 +1,213 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Custom field (Development),Custom field (Issue colour),Custom field (Rank),Custom field (Severity),Custom field (Start date),Custom field (Team),Status Category,Status Category Changed
+Failed test: PIM-AE-007: Attempt to upload an unsupported profile picture format,OHRM-1,10036,Bug,In Progress,OHRM,OrangeHRM Manual Testing,software,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,,Medium,,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,16/Aug/26 3:35 PM,16/Aug/26 4:13 PM,16/Aug/26 4:13 PM,,,0,"T125: PIM-AE-007: Attempt to upload an unsupported profile picture format https://orangehrmmanualtesting1.testrail.io/index.php?/tests/view/125
+
+*Preconditions:*
+
+1. The user is logged in as an Admin.
+2. The PIM → Add Employee page is open.
+3. An unsupported TXT file is available for upload.
+
+*Steps to Reproduce:*
+
+1. Navigate to PIM → Add Employee.
+
+2. Click the profile picture upload icon.
+
+3. Select a TXT file.
+
+4. Confirm the file selection and observe the form.
+
+*Actual Result:*
+
+The TXT file is not set as the employee’s profile picture, but no validation message is displayed explaining why the file was rejected.
+
+*Expected Result:*
+
+The unsupported file should be rejected, and a validation message should inform the user that only supported image formats, such as JPG or PNG, can be uploaded.
+
+*Reproducibility:*
+
+Always — 3/3 attempts.
+
+*Related TestRail:*
+
+C70 / PIM-AE-007
+
+*Test Case:*
+
+PIM-AE-007: Attempt to upload an unsupported profile picture format
+
+*Test Run:*
+
+OrangeHRM Functional Test Run – Cycle 1",,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,,,,,,,,,,,0|hzzzzz:,Low,,,In Progress,16/Aug/26 4:13 PM
+Failed test: MYI-PD-004: Verify that changes made in My Info are visible to Admin in PIM,OHRM-3,10038,Bug,In Progress,OHRM,OrangeHRM Manual Testing,software,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,,High,,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,16/Aug/26 3:43 PM,16/Aug/26 4:18 PM,,,,0,"Personal Details updated in My Info are not synchronized with PIM
+
+T142: MYI-PD-004: Verify that changes made in My Info are visible to Admin in PIM https://orangehrmmanualtesting1.testrail.io/index.php?/tests/view/142
+
+
+*Preconditions:*
+
+1. An enabled ESS account is associated with an employee.
+2. The ESS user can access My Info.
+3. An Admin account can access the employee’s PIM record.
+
+*Steps to Reproduce:*
+
+1. Log in as the ESS user.
+
+2. Update permitted Personal Details in My Info and save the changes.
+
+3. Log out and log in as an Admin.
+
+4. Open the same employee’s record in PIM and check the updated fields.
+
+*Actual Result:*
+
+The ESS user sees the updated information in My Info, but the Admin sees the previous values in the employee’s PIM record.
+
+*Expected Result:*
+
+The information saved in My Info should be synchronized with the employee’s PIM record and display the same current values.
+
+*Reproducibility:*
+
+Always — 3/3 attempts.
+
+*Related TestRail:*
+
+MYI-PD-004
+
+*Test Case:*
+
+MYI-PD-004: Verify that changes made in My Info are visible to Admin in PIM
+
+*Test Run:*
+
+OrangeHRM Functional Test Run – Cycle 1",,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,,,,,,,,,,,0|i0000f:,High,,,In Progress,16/Aug/26 4:14 PM
+Failed test: AC-002: Verify that an ESS user cannot access User Management through a direct URL,OHRM-4,10039,Bug,In Progress,OHRM,OrangeHRM Manual Testing,software,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,,Highest,,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,16/Aug/26 3:45 PM,16/Aug/26 4:18 PM,,,,0,"ESS user can access User Management through a direct URL
+
+T144: AC-002: Verify that an ESS user cannot access User Management through a direct URL https://orangehrmmanualtesting1.testrail.io/index.php?/tests/view/144
+
+*Preconditions:*
+
+1. An enabled ESS account exists.
+2. The ESS user is logged in.
+3. The direct URL of the System Users page is known.
+
+*Steps to Reproduce:*
+
+1. Log in as an ESS user.
+
+2. Paste the direct System Users URL into the browser address bar.
+
+3. Open the URL.
+
+4. Observe the displayed page and available user information.
+
+*Actual Result:*
+
+The System Users page is displayed, and the ESS user can view administrative user information.
+
+*Expected Result:*
+
+Access should be denied. The ESS user should receive an authorization error or be redirected to an accessible page.
+
+*Reproducibility:*
+
+Always — 3/3 attempts.
+
+*Related TestRail:*
+
+AC-002
+
+*Test Case:*
+
+AC-002: Verify that an ESS user cannot access User Management through a direct URL
+
+*Test Run:*
+
+OrangeHRM Functional Test Run – Cycle 1",,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,,,,,,,,,,,0|i0000n:,Critical,,,In Progress,16/Aug/26 4:14 PM
+Failed test: PIM-PD-004: Validate Date of Birth and License Expiry Date values,OHRM-2,10037,Bug,In Progress,OHRM,OrangeHRM Manual Testing,software,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,,High,,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,16/Aug/26 3:40 PM,16/Aug/26 4:18 PM,,,,0,"T130: PIM-PD-004: Validate Date of Birth and License Expiry Date values https://orangehrmmanualtesting1.testrail.io/index.php?/tests/view/130
+
+*Preconditions:*
+
+1. The user is logged in as an Admin.
+2. An employee record exists.
+3. The employee’s Personal Details page is open.
+
+*Steps to Reproduce:*
+
+1. Locate the Date of Birth field.
+
+2. Enter the invalid date 1995-31-02.
+
+3. Click Save.
+
+4. Refresh the page.
+
+*Actual Result:*
+
+The invalid Date of Birth is saved without a validation message and remains displayed after refreshing the page.
+
+*Expected Result:*
+
+The invalid date should be rejected, a validation message should be displayed, and the previously saved value should remain unchanged.
+
+*Reproducibility:*
+
+Always — 3/3 attempts.
+
+*Related TestRail:*
+
+PIM-PD-004
+
+*Test Case:*
+
+PIM-PD-004: Validate Date of Birth and License Expiry Date values
+
+*Test Run:*
+
+OrangeHRM Functional Test Run – Cycle 1",,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,,,,,,,,,,,0|i0000r:,Medium,,,In Progress,16/Aug/26 4:18 PM
+Failed test: E2E-002: Disable and re-enable an ESS account and verify login access,OHRM-5,10040,Bug,In Progress,OHRM,OrangeHRM Manual Testing,software,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,,Highest,,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,16/Aug/26 3:47 PM,16/Aug/26 4:14 PM,,,,0,"Disabled ESS account can still be used to log in
+
+T146: E2E-002: Disable and re-enable an ESS account and verify login access https://orangehrmmanualtesting1.testrail.io/index.php?/tests/view/146
+
+*Preconditions:*
+
+1. An enabled ESS account exists.
+2. Valid login credentials for the account are available.
+3. The Admin user can manage system users.
+
+*Steps to Reproduce:*
+
+1. Log in as an Admin and open Admin → User Management.
+
+2. Find the ESS account, change its status to Disabled, and save the change.
+
+3. Log out from the Admin account.
+
+4. Attempt to log in using the disabled ESS account.
+
+*Actual Result:*
+
+The disabled ESS user successfully logs in and gains access to the application.
+
+*Expected Result:*
+
+The application should reject the login attempt while the ESS account is disabled.
+
+*Reproducibility:*
+
+Always — 3/3 attempts.
+
+*Related TestRail:*
+
+E2E-002
+
+*Test Case:*
+
+E2E-002: Disable and re-enable an ESS account and verify login access
+
+*Test Run:*
+
+OrangeHRM Functional Test Run – Cycle 1",,SaraFira,712020:41c0a31d-4302-4063-b938-7993ba852692,,,,,,,,,,,0|i0000v:,Critical,,,In Progress,16/Aug/26 4:14 PM
