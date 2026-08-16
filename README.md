@@ -1,28 +1,26 @@
 # QA Learning Portfolio
 
-This repository contains my manual QA learning projects, including test documentation, test scenarios, bug reports, test execution results and summary reports.
+This repository contains my Manual QA portfolio projects, including test planning, test cases, execution results, defect reports, exploratory testing, and test summary reports.
 
-## Tools used
+## Tools
 
-- Confluence
-- GitHub
-- Markdown
+* TestRail
+* Jira Cloud
+* Confluence
+* GitHub
+* Markdown
+* Chrome DevTools
 
 ## Projects
 
-### SauceDemo Manual Testing Project
+### [SauceDemo Manual Testing](projects/saucedemo-manual-testing/)
 
-Manual testing project for Sauce Demo web application.
+Manual testing project covering login, product catalogue, cart, and checkout workflows.
 
-Covered areas:
-- Login
-- Products page
-- Cart
-- Checkout
+### [OrangeHRM Manual Testing](projects/orangehrm-manual-testing/)
 
-Project folder:
-`projects/saucedemo-manual-testing/`
+Completed end-to-end Manual QA project covering 40 functional test cases, exploratory testing, role-based workflows, Jira defect reporting, and TestRail execution evidence.
 
-### OrangeHRM Testing Project
+## About
 
-Coming soon.
+These projects were created for learning and portfolio purposes and do not represent commercial work experience.
