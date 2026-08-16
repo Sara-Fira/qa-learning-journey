@@ -47,7 +47,7 @@ The exploratory test status indicates that the defined mission and six goals wer
 | OHRM-4 | ESS user can access User Management through a direct URL | Critical | Highest |
 | OHRM-5 | Disabled ESS account can still be used to log in | Critical | Highest |
 
-All five simulated Jira issues were linked to the exploratory test result in TestRail.
+All five Jira issues were linked to the exploratory test result in TestRail.
 
 ## 5. Test Evidence and Deliverables
 
