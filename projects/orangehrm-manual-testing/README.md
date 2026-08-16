@@ -1,99 +1,188 @@
-# OrangeHRM Manual Testing
+OrangeHRM Manual Testing
+Project Status
 
-## Project Status
+Completed – Test planning, test design, functional execution, exploratory testing, defect reporting, and final reporting completed.
 
-In Progress – Test design and environment configuration completed. Test execution has not started yet.
+Project Overview
 
-## Project Overview
+This is a personal Manual QA portfolio project based on the OrangeHRM Open Source Demo application.
 
-This is a personal Manual QA portfolio project based on the OrangeHRM Demo application. The project demonstrates manual test planning, test design, test execution, defect management, exploratory testing, and reporting.
+The project demonstrates:
+
+Manual test planning and test design
+Positive and negative testing
+Functional test execution
+Role-based and end-to-end testing
+Exploratory testing
+Defect reporting in Jira
+TestRail and Jira traceability
+Test evidence collection
+Test summary reporting
 
 The project does not represent commercial work experience.
 
-## Application Under Test
+Five defects were found and registered in Jira.
 
-Application: OrangeHRM Demo
-
+Application Under Test
+Application: OrangeHRM Open Source Demo
 Version: OrangeHRM OS 5.9
-
 URL: https://opensource-demo.orangehrmlive.com/
-
-## Scope
+Scope
 
 The project covers selected functionality from:
 
-* Authentication
-* PIM – Employee List
-* PIM – Add Employee
-* PIM – Personal Details
-* Admin – User Management
-* My Info – Personal Details
-* Role-based access control
-* Employee and ESS account end-to-end flows
+Authentication
+PIM – Employee List
+PIM – Add Employee
+PIM – Personal Details
+Admin – User Management
+My Info – Personal Details
+Role-based access control
+Employee and ESS account end-to-end workflows
+Exploratory testing of validation, permissions, data consistency, session behaviour, and usability
+Out of Scope
 
-## Out of Scope
+The following areas were excluded:
 
-The following areas are excluded:
+Leave
+Time
+Recruitment
+Performance
+Dashboard
+Directory
+Maintenance
+Claim
+Buzz
+Reports and advanced configuration
+API testing
+Performance testing
+Mobile testing
+Full security testing
+Cross-browser testing
+Automated testing
+Test Approach
 
-* Leave
-* Time
-* Recruitment
-* Performance
-* Dashboard
-* Directory
-* Maintenance
-* Claim
-* Buzz
-* Reports and advanced configuration
-* API, performance, mobile, and full security testing
-* Cross-browser testing
+The project used requirements-based and exploratory testing.
 
-## Test Approach
+Since no formal Software Requirements Specification was available, the test cases were based on:
 
-The project uses requirements-based and exploratory testing. Since no formal Software Requirements Specification is available, test cases are based on observed application behaviour, available interface information, and clearly identified testing assumptions.
+Observed application behaviour
+Information available in the user interface
+Common expectations for employee-management systems
+Clearly identified testing assumptions
 
-The test design includes positive and negative testing, Equivalence Partitioning, selected boundary and validation checks, state transitions, role-based testing, and end-to-end scenarios.
+The test design included:
 
-## Tools
+Positive and negative testing
+Equivalence Partitioning
+Selected boundary and validation checks
+State-transition scenarios
+Role-based testing
+End-to-end workflows
+Error guessing
+Exploratory testing
+Tools
+OrangeHRM Open Source Demo
+TestRail
+Jira Cloud
+Google Chrome
+GitHub
+Test Execution Results
+Functional Test Run
+Metric	Result
+Planned	40
+Executed	40
+Passed	35
+Failed	5
+Blocked	0
+Untested	0
+Execution completion	100%
+Pass rate	88%
+Exploratory Test Run
+Metric	Result
+Exploratory sessions	1
+Session timebox	45 minutes
+Mission status	Completed
+Goals covered	6/6
+TestRail status	Passed
+Linked Jira defects	5
+Defect Summary
 
-* OrangeHRM Demo
-* TestRail
-* Jira Cloud
-* Google Chrome
-* Chrome DevTools
-* GitHub
+Five defects were documented in Jira and linked to TestRail:
 
-## Current Progress
+Jira key	Defect	Severity	Priority
+OHRM-1	No validation message after selecting an unsupported profile picture format	Low	Medium
+OHRM-2	Invalid Date of Birth can be saved in Personal Details	Medium	High
+OHRM-3	Personal Details updated in My Info are not synchronized with PIM	High	High
+OHRM-4	ESS user can access User Management through a direct URL	Critical	Highest
+OHRM-5	Disabled ESS account can still be used to log in	Critical	Highest
+Project Deliverables
+Test Cases
+Test Case Baseline – PDF
+Test Case Baseline – CSV
+Functional Test Results
+Functional Test Run – PDF
+Functional Test Run – CSV
+Exploratory Testing
+Exploratory Test Run – PDF
+Exploratory Test Run – CSV
+Defect Reports
+Jira Defect Export – CSV
+Test Summary
+Test Summary Report – PDF
+Selected Test Evidence
+Application Evidence
+Employee and enabled ESS account creation
+Required-field validation
+Password mismatch validation
+Duplicate username validation
+Oversized profile picture validation
+User Management required-field validation
 
-* 40 scripted test cases prepared in TestRail
-* 1 exploratory testing charter prepared
-* TestRail project and milestone configured
-* Jira defect workflow configured
-* TestRail and Jira Cloud connected
-* Test Design Baseline v1.0 exported
-* Test execution pending
+Evidence is available in:
 
-## Test Case Repository
+screenshots
 
-* [Test Cases – PDF](test-cases/orangehrm_test_cases_baseline_v1.0.pdf)
-* [Test Cases – CSV](test-cases/orangehrm_test_cases_baseline_v1.0.csv)
+TestRail Evidence
 
-## Repository Structure
+Test execution, exploratory testing, and milestone evidence is available in:
 
-* test-cases – TestRail test case exports
-* test-results – Test execution evidence and exports
-* bug-reports – Selected defect reports
-* exploratory-testing – Exploratory charter and session notes
-* test-summary – Final Test Summary Report
-* screenshots/testrail – Selected TestRail evidence
-* screenshots/jira – Selected Jira evidence
+screenshots
 
-## Planned Next Steps
+Jira Evidence
 
-* Execute the 40 scripted test cases
-* Report confirmed defects in Jira
-* Link failed TestRail results with Jira defects
-* Perform the exploratory testing session
-* Prepare the Test Summary Report
-* Publish the completed portfolio project
+Selected Jira defect-management evidence is available in:
 
+screenshots
+
+Repository Structure
+orangehrm-manual-testing/
+├── bug-reports/
+├── exploratory-testing/
+├── screenshots/
+├── test-cases/
+├── test-plan/
+├── test-results/
+├── test-summary/
+└── README.md
+
+Risks and Limitations
+Testing was performed against a public demo environment that may reset or change test data.
+The project covered selected workflows rather than every OrangeHRM module.
+Cross-browser, mobile, accessibility, performance, API, database, and automated testing were outside the scope.
+Exit Criteria
+
+The project exit criteria were met:
+
+All 40 planned functional test cases were executed.
+Functional execution reached 100% completion.
+The exploratory mission and all six goals were completed.
+Test evidence and final exports were prepared.
+Jira defects were linked to the exploratory TestRail result.
+The Test Summary Report was completed.
+The TestRail runs and milestone were closed.
+Conclusion
+
+The OrangeHRM Manual Testing Project was completed successfully.
+
+The project demonstrates a complete manual QA workflow, including planning, test design, execution, exploratory testing, defect reporting, evidence collection, TestRail–Jira traceability, and final reporting.
