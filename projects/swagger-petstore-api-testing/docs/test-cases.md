@@ -36,3 +36,16 @@
 | USER-005 | Log out the current user | GET | `/user/logout` | Status 200; the user is logged out successfully |
 | USER-006 | Create multiple users from a list | POST | `/user/createWithList` | Status 200; the user list is processed successfully |
 | USER-007 | Delete an existing user | DELETE | `/user/{username}` | Status 200; the user is deleted successfully |
+
+
+## 4. Negative Tests
+
+| ID | Test Scenario | Method | Endpoint | Expected Result |
+|---|---|---|---|---|
+| NEG-PET-001 | Retrieve a pet using a non-existing ID | GET | `/pet/{petId}` | Status 404; pet is not found |
+| NEG-PET-002 | Retrieve a pet using an invalid ID format | GET | `/pet/{petId}` | Status 400; invalid ID error is returned |
+| NEG-PET-003 | Create a pet without required data | POST | `/pet` | Client error status; the invalid request is rejected |
+| NEG-PET-004 | Delete a pet without authorization | DELETE | `/pet/{petId}` | Status 401 or 403; the request is rejected |
+| NEG-STORE-001 | Retrieve a non-existing order | GET | `/store/order/{orderId}` | Status 404; order is not found |
+| NEG-USER-001 | Retrieve a non-existing user | GET | `/user/{username}` | Status 404; user is not found |
+| NEG-USER-002 | Log in using invalid credentials | GET | `/user/login` | Status 400; invalid credentials error is returned |
